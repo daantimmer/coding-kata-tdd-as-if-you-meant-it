@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.useCMakePresets": "always",
+    "cmake.copyCompileCommands": "${workspaceFolder}/.build/compile_commands.json",
+    "testMate.cpp.test.executables": "${workspaceFolder}/.build/**/*{test,Test,TEST}*",
+}

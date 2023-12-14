@@ -1,0 +1,25 @@
+---
+Checks:          '
+clang-analyzer-*,
+cppcoreguidelines*,
+-cppcoreguidelines-pro-bounds-constant-array-index,
+-cppcoreguidelines-avoid-const-or-ref-data-members,
+-cppcoreguidelines-non-private-member-variables-in-classes,
+-cppcoreguidelines-pro-type-cstyle-cast
+misc-*,
+-misc-no-recursion,
+-misc-non-private-member-variables-in-classes,
+modernize*,
+-modernize-use-trailing-return-type,
+performance*,
+-performance-no-int-to-ptr,
+readability*,
+-readability-else-after-return,
+-readability-identifier-length,
+'
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*source.*'
+AnalyzeTemporaryDtors: false
+CheckOptions:
+    AllowSoleDefaultDtor: true
+...
